@@ -9,13 +9,17 @@ public class Student {
     private String email;
     private LocalDate birth_date;
 
-//    public Student(int id, String first_name, String last_name, String email, LocalDate birth_date) {
-//        this.id = id;
-//        this.first_name = first_name;
-//        this.last_name = last_name;
-//        this.email = email;
-//        this.birth_date = birth_date;
-//    }
+    public Student(int id, String first_name, String last_name, String email, LocalDate birth_date) {
+        this.id = id;
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.email = email;
+        this.birth_date = birth_date;
+    }
+
+    public Student() {
+
+    }
 
     public int getId() {
         return id;
